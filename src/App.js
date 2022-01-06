@@ -149,7 +149,7 @@ const setupEventListener = async () => {
         const connectedContract = new ethers.Contract(CONTRACT_ADDRESS, myEpicNFT.abi, signer);
         const counter = await connectedContract.getTotalNFTsMintedSoFar();
         document.getElementById("value").innerHTML =  counter.toNumber();        
-        //console.log(counter.toNumber(), "/10,000");
+        console.log(counter.toNumber(), "/10,000");
         //return counter.toNumber();
       } else {
         console.log("Ethereum object doesn't exist!");
