@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import myEpicNFT from './utils/MyEpicNFT.json';
 
 // Constants
-const TWITTER_HANDLE = 'jondoescoding';
+const TWITTER_HANDLE = 'jondidathing';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 //const OPENSEA_LINK = 'https://testnets.opensea.io/collection/survivor-gcpfa2c8v6';
 //const TOTAL_MINT_COUNT = 50;
